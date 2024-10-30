@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Cookie Recipe</title>
 </head>
 <body>
     <!--Using <h1>-<h6> to indicate level of importance -->
-    <h1>Classic Chocalate Chip Cookies</h1>
+    <header><h1>Classic Chocalate Chip Cookies</h1></header>
     <p>Family coming over? or you want to impress your colleagues at a work event? This simple yet affective recipe will surely win them over.</p>
     <p>Most of the ingredients should be easy to find in your pantry or refridegerator.</p>
     <P>This recipe is simple to follow once you have all the ingredients and follow the steps.</P>
     <p> So lets make an awesome dessert that will have family, friends, colleagues seeing you as a <em>Culinary Expert!</em></p>
     <!--Use of <p> for making paragraphs/sentences as well as <em>, <strong><bold> to add a specialality to a word or sentence-->
-    <hr>
-    <h2><strong>Ingredients:</strong></h2>
+    <nav>
+        <button class="your-recipe"><a href="recipe-form.html">Share your own Recipe!</a></button>
+    </nav>
+        <hr>
+    <img class= "cookie-tray" src="https://www.westend61.de/images/0001554368pw/young-woman-eating-cookie-at-outdoor-cafe-ISF24474.jpg" alt="tray of cookies">
+    <h2 class="ingredients"><strong>Ingredients:</strong></h2>
     <ul>
         <li>1 cup (2sticks) unsalted butter, softened</li>
         <li>3/4 cup granulated sugar</li>    <!--Use of <ul> for un-ordered list with bullet points -->
@@ -30,9 +35,9 @@
     <!--inserting image -->
     <!--Adding link with <a> and href-->
     <!--Use of inline styling-->
-      <img src="https://pinchofyum.com/wp-content/uploads/Chocolate-Chip-Cookies-Recipe.jpg" style="width: 200px; height: auto;" alt="Chocolate Chip Cookies">
-      <h2><a href="https://www.onceuponachef.com/recipes/the-best-chocolate-chip-cookies.html"><i>More chocalate chip  Cookie recipes here &amp; <em>more!</em></i></a></h2>
-      <h2><Strong>Steps:</h2><Strong></h2>
+      <img class='cookies' src="https://pinchofyum.com/wp-content/uploads/Chocolate-Chip-Cookies-Recipe.jpg" alt="Chocolate Chip Cookies">
+      <h2 class="more_recipes"><a href="https://www.onceuponachef.com/recipes/the-best-chocolate-chip-cookies.html"><i>More chocalate chip  Cookie recipes here &amp; <em>more!</em></i></a></h2>
+      <h2 class="steps"><Strong>Steps:</h2><Strong></h2>
       <ol>
           <li>Preheat the oven 375&#8457 (190&#8451). Line baking sheets with parchment paper or silicone baing mats.</li>
           <li>In a large mixing bowl, cream together the softened butter, granulated sugar, brown sugar, <br>and vanilla extract until light and fluffy</li>
@@ -43,8 +48,9 @@
           <li>Bake in the preheated oven for 9 to 11 minutes, or until the edges are golden brown.</li>
           <li>Remove from the oven and allow the cookies to cool on the baking sheet for a few minutes <br>before transferring them to wire racks to cool completely.</li>
       </ol>
-      <p>Don't forget to enjoy your Class Chocolate Chip Cookies with a tall glass of milk &#9829; the perfect combination!</p> 
+      <p class="example">Don't forget to enjoy your Chocolate Chip Cookies with a tall glass of milk <span>&#9829;</span> the perfect combination!</p> 
+      <hr>
       <!--Special characters used for a visual affect e.g. &#9829;, &amp;-->
-    
+         <footer id="copyright">Copyright 2024</footer>
 </body>
 </html>

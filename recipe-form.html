@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="form.css">
+  <title>Submit Your Recipe</title>
+</head>
+<body>
+
+  <!-- Navigation link back to the main recipe page -->
+  <nav>
+    <a href="cookie_recipe.html" class="back-link">← Back to Chocolate Chip Cookie Recipe</a>
+  </nav>
+
+  <h1>Share Your Chocolate Chip Cookie Recipe</h1>
+  <p>Have a unique twist on the classic chocolate chip cookie? Share your recipe with us below!</p>
+
+  <!-- Recipe Submission Form -->
+  <form action="#" method="post">
+    <!-- Recipe Name Field -->
+    <label for="recipe-name">Recipe Name:</label>
+    <input type="text" id="recipe-name" name="recipe-name" placeholder="Enter the recipe name" required>
+    <br><br>
+
+    <!-- Ingredients Field -->
+    <label for="ingredients">Ingredients:</label>
+    <textarea id="ingredients" name="ingredients" rows="5" placeholder="List ingredients here" required></textarea>
+    <br><br>
+
+    <!-- Instructions Field -->
+    <label for="instructions">Instructions:</label>
+    <textarea id="instructions" name="instructions" rows="8" placeholder="Write the instructions here" required></textarea>
+    <br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit Recipe</button>
+  </form>
+
+</body>
+</html>
